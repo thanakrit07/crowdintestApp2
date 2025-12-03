@@ -1,0 +1,3 @@
+files:
+  - source: /public/source/LIFF.json
+    translation: /%original_path%/%locale%.json
