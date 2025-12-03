@@ -8,5 +8,9 @@
   "reset": "Reset",
   "selectLanguage": "Select Language",
   "currentLanguage": "Current Language",
-  "applicationName": "Application Name"
+  "features": "Features",
+  "feature1": "Multi-language support (English & Thai)",
+  "feature2": "Modern UI with Mantine components",
+  "feature3": "i18next for internationalization",
+  "feature4": "TypeScript support"
 }
