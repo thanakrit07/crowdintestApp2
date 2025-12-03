@@ -22,19 +22,23 @@ jobs:
         run: |
           npm install -g @crowdin/cli
 
-      - name: Create Crowdin configuration
+      - name: Download translations from Crowdin
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
         run: |
-          cat > crowdin.yml << EOF
-          project_id: "${{ secrets.CROWDIN_PROJECT_ID }}"
-          api_token: "${{ secrets.CROWDIN_TOKEN }}"
+          cat > crowdin.yml << 'EOF'
+          project_id_env: CROWDIN_PROJECT_ID
+          api_token_env: CROWDIN_PERSONAL_TOKEN
 
           files:
             - source: /public/i18n/source.json
               translation: /public/i18n/%locale%.json
           EOF
 
-      - name: Download translations from Crowdin
-        run: |
+          echo "=== Crowdin Configuration ==="
+          cat crowdin.yml
+
           crowdin download
 
       - name: Check for changes
