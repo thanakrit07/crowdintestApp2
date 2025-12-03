@@ -1,0 +1,1634 @@
+{
+  "apiError": {
+    "description": "Please try again later.",
+    "mutation": "Error calling API (mutation {{ mutationName }})",
+    "query": "Error calling API (query {{ queryName }})",
+    "systemProcessing": {
+      "descriptionLine1": "Please wait a moment",
+      "descriptionLine2": "The system may take some time to complete the process.",
+      "title": "System Processing"
+    },
+    "title": "Something went wrong"
+  },
+  "authentication": {
+    "checkEmailOrContactAdmin": "Please ensure your email is correct, or contact the staff for more information.",
+    "emailNotAuthorizedToLogInLine1": "Your email is not",
+    "emailNotAuthorizedToLogInLine2": "authorized to log in.",
+    "loginLoading": "Logging in...",
+    "logOut": "Log Out",
+    "logOutError": "There is a problem logging out of the system",
+    "noPermission": "You do not have a permission to access this account. Please contact LINE: @hatosupport",
+    "permissionChecking": "Checking permission..."
+  },
+  "bluetoothle": {
+    "bluetoothPrinter": "Bluetooth Printer",
+    "close": "Close",
+    "connectedDevice": "Connected Device",
+    "connecting": "Connecting",
+    "connectToNewDevice": "Connect to new devices",
+    "disconnect": "Disconnect",
+    "hasConnected": "Connecting",
+    "modalUnableToConnectDes": "An error occurred during connection. Please try again.",
+    "modalUnableToConnectTitle": "Unable to connect",
+    "modalWarningOpenBluetoothDes": "Turn on the Bluetooth of the device and printer to connect to the printer.",
+    "modalWarningOpenBluetoothTitle": "Turn on bluetooth to proceed connection",
+    "noConnection": "No connection",
+    "printer": "Printer",
+    "reconnect": "Reconnect",
+    "searchingForDevice": "Searching for device",
+    "turnOnYourBluetooth": "Turn on your bluetooth to connect"
+  },
+  "businessHours": {
+    "addBusinessHourButton": "เพิ่มรอบ",
+    "dayOfWeek": {
+      "fri": "Fri",
+      "mon": "Mon",
+      "sat": "Sat",
+      "sun": "Sun",
+      "thu": "Thu",
+      "tue": "Tue",
+      "wed": "Wed"
+    }
+  },
+  "cashManagement": {
+    "branch": "Branch",
+    "cancel": "Cancel",
+    "cashManagement": "Cash Management",
+    "cashSalesToday": "Cash Sales Today",
+    "cashSessionStatus": {
+      "Open": "Open",
+      "Closed": "Closed"
+    },
+    "closeShift": "Close Shift",
+    "closeShiftSuccess": "Close shift successfully",
+    "closeTime": "Close Time",
+    "confirm": "Confirm",
+    "confirmClose": "Confirm Close",
+    "confirmCloseShift": "Confirm Close Shift",
+    "confirmOpen": "Confirm Open",
+    "confirmOpenShift": "Confirm Open Shift",
+    "countedCash": "Counted Cash",
+    "difference": "Difference",
+    "enterCashInDrawer": "Enter Cash in Drawer",
+    "errorCannotOpenShift": "An error has occurred. Unable to open shift.",
+    "errorCannotCloseShift": "An error has occurred. Unable to close shift.",
+    "firstTimeUse": "Since this is your first time using this feature\nthe system will not have data from the last closed shift.",
+    "ifClose": "If closed, the amount cannot be changed.",
+    "noData": "No Data",
+    "onceConfirmed": "Once confirmed, this cannot be undone",
+    "onceOpenShift": "Once the shift is opened, the amount cannot be changed.",
+    "openShift": "Open Shift",
+    "openShiftSuccess": "Open shift successfully",
+    "openTime": "Open Time",
+    "openingBalance": "Opening Balance",
+    "status": "Status"
+  },
+  "cashMethodCheckout": {
+    "amountDue": "Amount Due",
+    "calculateChange": "Calculate Change",
+    "change": "Change",
+    "confirmPayment": "Confirm Payment",
+    "customerPaymentAmount": "Customer Payment Amount",
+    "insufficientFundsToPayMeal": "Insufficient funds to pay for the meal",
+    "payment": "Payment",
+    "paymentSummary": "Payment Summary",
+    "proceedToPayment": "Proceed to Payment",
+    "specifyCustomerPaymentAmount": "Specify Customer Payment Amount",
+    "totalDue": "Total Due"
+  },
+  "common": {
+    "close": "Close",
+    "seeMore": "See More"
+  },
+  "ComplimentaryPaymentTypeEnum": {
+    "C01": "1.1 รับรองพิเศษกรรมการ / C-Suite / EVP",
+    "C04": "1.4 รับรองบุคคลหรือหน่วยงานภายนอก",
+    "C05": "2. ทดสอบอาหาร",
+    "C06": "3. งานการตลาด-สื่อโฆษณา",
+    "C07": "4. ความรู้ผลิตภัณฑ์",
+    "C08": "1.5 งานอีเวนท์ - Marketing / CRM",
+    "C09": "1.6 งานอีเวนท์ - PR",
+    "C10": "1.7 งานอีเวนท์ - CSR"
+  },
+  "datePicker": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "date": "Date",
+    "selectDate": "Select Date"
+  },
+  "dineIn": {
+    "addOrUpdateFine": "Add or Update Fine",
+    "aggregator": {
+      "close": "Close",
+      "confirmCreateOrder": "Confirm Order",
+      "createOrderComplete": "Order Completed",
+      "createOrderFail": "Unable to crate order",
+      "customerInfo": {
+        "text": "Specify phone no.",
+        "title": "Customer Information"
+      },
+      "deliveryChannel": {
+        "AirAsiaFood": "AirAsia Food",
+        "FoodPanda": "Food Panda",
+        "GrabFood": "Grab Food",
+        "LineMan": "LINE MAN",
+        "Robinhood": "Robinhood",
+        "ShopeeFood": "Shopee Food"
+      },
+      "deliveryInfo": {
+        "deliveryChannel": "Delivery Channel",
+        "deliveryNo": "Delivery No.",
+        "serviceType": {
+          "delivery": "Delivery",
+          "pickUp": "Pickup",
+          "title": "Service Type"
+        },
+        "text": "Update Delivery Infomation",
+        "title": "Delivery Infomation"
+      },
+      "header": "Order Confirmation",
+      "title": "Order Confirmation",
+      "updateCustomerInfo": {
+        "form": "Phone no.",
+        "submit": "Save",
+        "title": "Customer Information"
+      },
+      "warning": {
+        "phoneLength": "Please complete the phone no. with 10 digits"
+      }
+    },
+    "buffetConfig": {
+      "action": {
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "cancel": "Cancel",
+      "customer": "Customer",
+      "header": "Detail",
+      "packages": "Packages",
+      "title": "Buffet Config",
+      "updateOrderBuffetFineSucceed": "Order buffet fine has been successfully updated",
+      "updateOrderBuffetSucceed": "Order buffet has been successfully updated",
+      "warning": {
+        "cannotRetrieveBuffetPackData": "There is a problem retrieving buffet packages information.",
+        "cannotUpdateOrderBuffet": "There is a problem updating the order buffet package.",
+        "cannotUpdateOrderBuffetFine": "There is a problem updating the order buffet fine.",
+        "pleaseSelectBuffetPackage": "Please select package.",
+        "requiredPersons": "Please add the no. of customers.",
+        "submitError": "Something went wrong, Can't submit the order",
+        "updateTable": "Something went wrong during update table"
+      }
+    },
+    "buffetPackageOf": "Package: {{text}}",
+    "buffetTime": "Buffet time: {{from}} - {{to}}",
+    "cannotDeleteLineItem": "Cannot delete the item",
+    "chooseBillingTable": "Choose a billing table",
+    "combinableTable": "Combinable table",
+    "combineTable": "Combine Table",
+    "combineTableSucceed": "Combine table success: Combined to {{to}}",
+    "confirmCheckout": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "description1": "If you confirm payment, you will no longer be",
+      "description2": "able to edit or add additional items to this order",
+      "ExternalEDC": {
+        "maxWarning": "The Ref no. of the card reader should not exceed 12 digits",
+        "refNumber": "Reference No. of card reader",
+        "refNumberPlaceholder": "Please fill in the Ref no. of card reader"
+      },
+      "ExternalQRPayment": {
+        "maxWarning": "The Ref no. should not exceed 12 digits",
+        "refNumber": "The Ref no. ",
+        "refNumberPlaceholder": "Please fill in the Ref no."
+      },
+      "StaffCheckoutConfirm": {
+        "cancelBtn": "Back",
+        "content": "Another staff member is currently processing the payment. Do you want to confirm and proceed to the payment page?"
+      },
+      "title": "Confirm Payment",
+      "total": "Total"
+    },
+    "confirmOrder": "Confirm order",
+    "confirmToAddFine": "Confirmation of additional fines",
+    "confirmToCombineTable": "Confirm to combine",
+    "confirmToTransferTable": "Confirm to transfer",
+    "couldNotFindAnyMatchesTableFor": "Couldn't find any matches table for {{text}}",
+    "customerType": "Customer Type",
+    "customTableStatus": {
+      "AtCheckoutState": "At checkout state",
+      "Available": "Available",
+      "Cancelled": "Cancelled",
+      "Completed": "Payment completed",
+      "Occupied": "In Use",
+      "ReadyToCheckout": "Ready to Checkout"
+    },
+    "delete": "Delete",
+    "dineInConfig": {
+      "submit": "Save",
+      "title": "Dine-in Conig",
+      "totalTableGuests": "Number of customers"
+    },
+    "doYouWantToAddFineToThisOrder": "Do you want to add a fine to this order?",
+    "editMemberDetail": {
+      "errorSearchMembers": "An error occurred while searching for members.",
+      "memberPhone": "Phone number",
+      "scanQrCode": "Scan QR Code",
+      "submit": "Submit",
+      "title": "Member's Phone Number",
+      "warning": {
+        "notFound": "No members found. Please check the phone no. again.",
+        "phoneLength": "Phone no. must be 10 characters",
+        "required": "Please specify the phone no."
+      }
+    },
+    "failedToConfirmOrder": "The order confirmation was unsuccessful. Please refresh to reload the data again.",
+    "fine": "Fine",
+    "firstTime": "First Time",
+    "gotErrorOnTableSelectedTryToRefresh": "There has been a change in the data of the table you selected. Please refresh the page to load the new data or try again.",
+    "guestInfo": {
+      "title": "Customer Detail",
+      "guestInfoType": "Customer type information",
+      "customerTypeAndQuantity": "Customer type & quantity",
+      "noGuest": "No guest information",
+      "branch": "Branch{{branchName}}",
+      "frequencyVisitLabel": "Customer visit frequency (past 12 months)",
+      "frequencyVisitUnit": "times",
+      "favoriteMenuLabel": "Favorite menu items not yet ordered"
+    },
+    "haveCustomerEveryUsedDineInBefore": "Have customers ever used Digital Dine in before?",
+    "haveNotUsedItBefore": "Haven't used it before",
+    "history": "History",
+    "leftOver": "Left over",
+    "lineItemDeletedSuccessfully": "Line item deleted successfully",
+    "manageTable": "Manage Tables",
+    "memberList": {
+      "header": "Select Member",
+      "isVerified": "Verified",
+      "notVerified": "Not Verified"
+    },
+    "modalInputPhoneNumber": {
+      "errorSearchMembers": "An error occurred while searching for members.",
+      "input": {
+        "error": "No members found. Please check the phone number again.",
+        "label": "Member's phone no.",
+        "lengthWaring": "Phone no. should have a length of 10 characters",
+        "placeholder": "Member’s phone",
+        "requiredPhone": "Please specify the member's phone no."
+      },
+      "submit": "Confirm",
+      "submitWithoutMember": "Confirm (without member)",
+      "title": "Provide the member's phone number for payment processing.",
+      "warning": "If you confirm on the payment processing page, customers will not be able to use the system."
+    },
+    "modalTableAvailable": {
+      "description": "Please refresh this page",
+      "refreshText": "Refresh",
+      "title": "Table's status got updated"
+    },
+    "modifierSelection": {
+      "addToCart": "Add To Cart",
+      "alert": {
+        "cantOrder": "Can't add order to cart, some product out of stock"
+      },
+      "amount": "Amount",
+      "moreDetails": "Add more details",
+      "selectionType": {
+        "multiple": "(Multiple Choise)",
+        "quantity": "(Quantity)",
+        "single": "(Single Choise)"
+      },
+      "toast": {
+        "maximumWarning": "{{name}} should not be more than {{quantity}} อย่าง",
+        "minimumWarning": "{{name}} should not be less than {{quantity}} pieces"
+      },
+      "total": "Total"
+    },
+    "multipleOptionsCanBeSelected": "Multiple options can be selected",
+    "onceConfirmOrderCannotUpdateAnything": "Once the order has been confirmed, it will not be possible to edit or add additional fines to the order.",
+    "oneMinute": "1 minute",
+    "order": {
+      "areYouSureYouWantToCancel": "Are you you want to cancel this order?",
+      "cancel": "Cancel",
+      "description": {
+        "allServed": "All served",
+        "pendingMoreThan": "Pending more than {{minute}} minutes",
+        "waitingForCheckout": "Waiting for checkout"
+      },
+      "doYouWantToCancel": "Do you want to cancel order?",
+      "person": "peron",
+      "status": {
+        "Cooking": "Cooking",
+        "Served": "Served",
+        "Serving": "Serving"
+      },
+      "toast": {
+        "cancelOrderFailed": "An error has occurred. unable to cancel the order.",
+        "updateOrderLineItemFailed": "An error has occurred. unable to update the order.",
+        "updateTotalGuestsFail": "Update Fail",
+        "updateTotalGuestsSuccess": "Update Success"
+      },
+      "totalTableGuests": "Number of customers"
+    },
+    "overtime": "Overtime",
+    "paymentableTable": "Paymentable table",
+    "paymentMethod": {
+      "buffetPackage": "Package",
+      "buffetTotal": "Total",
+      "confirm": "Confirm",
+      "confirmCheckout": "Confirm Payment",
+      "description": "Please select a Payment Method.",
+      "externalEDCInfoForFP": "For unsuccessful payments with EDC.",
+      "header": "Proceed with Payment",
+      "memberDetail": "Membershi Detail",
+      "memberName": "Name",
+      "memberTier": "Tier",
+      "options": {
+        "Cash": "Cash",
+        "Complimentary": "Complimentary",
+        "ExternalEDC": "EDC (not integrated with POS system)",
+        "ExternalQRPayment": "Pay with QR Code",
+        "KBankEDC": "EDC",
+        "KBankEDCAlipay": "Alipay",
+        "KBankEDCCreditCard": "CreditCard",
+        "KBankEDCQRCreditCard": "QR CreditCard",
+        "KBankEDCQRPromptPay": "QR PromptPay",
+        "KBankEDCWechat": "Wechat",
+        "KBankExternalEDCAlipay": "Alipay",
+        "KBankExternalEDCCreditCard": "CreditCard",
+        "KBankExternalEDCQRCreditCard": "QR CreditCard",
+        "KBankExternalEDCQRPromptPay": "QR PromptPay",
+        "KBankExternalEDCWechat": "Wechat"
+      },
+      "orderTotal": "Food Total",
+      "paymentMethod": "Payment Method",
+      "promotion": {
+        "description": "Select promotions",
+        "tag": {
+          "applied": "Applied",
+          "notMet": "Condition not met"
+        },
+        "title": "Promotion",
+        "toast": {
+          "canCelPromotionLine1": "Promotion",
+          "canCelPromotionLine2": "has been removed",
+          "removeFailed": "Cannot remove this promotion"
+        }
+      },
+      "requiredRefNo": "Reference No. of card reader is required",
+      "specifyMemberDetail": "Please specify phone no.",
+      "summary": "Summary",
+      "title": "Payment",
+      "toast": {
+        "applyMembership": {
+          "textLine1": "The phone number",
+          "textLine2": "has been successfully updated"
+        },
+        "cancelCheckout": {
+          "cancel": "Back",
+          "confirm": "Confirm",
+          "description": "If you confirmed, the current member information and promotion that you selected will be deleted. You need to enter again when going to this page. ",
+          "title": "Confirm to cancel checkout"
+        },
+        "orderInvalids": {
+          "InvalidBeingCheckedOut": "This order is being checked out",
+          "InvalidExternalCoupon": "This order has an invalid external coupon",
+          "InvalidMemberCoupon": "This order has an invalid member coupon",
+          "InvalidPaymentIsPending": "This order has a pending payment",
+          "InvalidPromotion": "This order has an invalid promotion"
+        },
+        "promotionInvalids": {
+          "Conflicting": "This order has conflicting promotions that cannot be used together",
+          "Duplicate": "This order has duplicate promotions",
+          "InvalidConditions": "This order has promotions that do not match the conditions",
+          "NotExistedOrExpired": "This order has some promotions that cannot be used",
+          "Used": "This order has promotions that have already been used"
+        },
+        "updatePaymentMethodFailed": "Unable to update payment method."
+      },
+      "total": "Total",
+      "totalTitle": "Order Summary",
+      "warning": {
+        "description": "Please select a Payment Method before proceeding with Payment.",
+        "ok": "OK",
+        "title": "Please select a Payment Method"
+      },
+      "serviceCharge": "Service Charge {{percent}}%"
+    },
+    "pleaseCheckStatusOfOrderBeforeDeleteLineItem": "Please check the status of the order or check if the customers is in the payment page before proceeding",
+    "pleaseSpecifyResonToRemoveLineItem": "Please specify the reason for removing the line item.",
+    "popupPromotion": {
+      "applied": "Applied",
+      "appliedPromotions": "Applied Promotions",
+      "apply": "Apply",
+      "confirm": "Confirm",
+      "detail": "Detail",
+      "emptyDescriptionLine1": "Doesn't have",
+      "emptyDescriptionLine2": "avialable promotion",
+      "expire": "Expire",
+      "header": "Promotion",
+      "modalScannerWarning": {
+        "confirmText": "OK",
+        "content": "Please checking your QR Code and try again",
+        "title": "QR Code Is Invalid"
+      },
+      "orderInvalids": {
+        "InvalidMinimumLineItemTotal": "Cannot apply this promotion, Total amount less than the specified conditions.",
+        "InvalidMinimumTotal": "Cannot apply this promotion, Total amount less than the specified conditions.",
+        "InvalidPaymentIsPending": "Cannot apply this promotion, Order is pending payment"
+      },
+      "promotionInvalids": {
+        "Conflicting": "This promotion cannot be used in conjunction with the promotion in this order.",
+        "Duplicate": "You have already used thsis promotion.",
+        "InvalidConditions": "The promotion does not match the conditions.",
+        "NotExistedOrExpired": "Promotion not found",
+        "Used": "You have already used thsis promotion."
+      },
+      "promotionList": "Promotions",
+      "searchPlaceholder": "Type the code or scan to use the coupon.",
+      "tab": {
+        "memberCoupons": "Member Coupons",
+        "promotion": "Promotions"
+      },
+      "toast": {
+        "applySuccessLine1": "Promotion has been",
+        "applySuccessLine2": "applied succeed",
+        "failed": "Cannot Apply This Promotion"
+      }
+    },
+    "popupPromotionDetail": {
+      "apply": "ใช้โปรโมชั่นนี้",
+      "cancel": "Cancel This Promotion",
+      "cardTitle": "Condition And Details",
+      "expire": "Expire",
+      "header": "Promotion Details"
+    },
+    "pressToScanMemberQR": "Press to Scan Member QR",
+    "price": "Price",
+    "printComplimentaryReceipt": "Print complimentary",
+    "productList": {
+      "aLaCarte": "A La Carte",
+      "buffet": "Buffet",
+      "cart": "Private Cart",
+      "categories": "Categories",
+      "emptyList": "Not found product list",
+      "searchProduct": {
+        "cancel": "Cancel",
+        "notFound": "Product not found"
+      },
+      "service": {
+        "dineIn": "Dine-in",
+        "takeaway": "Takeaway"
+      },
+      "title": "Product List",
+      "toast": {
+        "addProductSuccess1": "Added product to",
+        "addProductSuccess2": "private cart completed",
+        "loadDataFail": "Cannot get products"
+      },
+      "warning": {
+        "modifierLimitQuantity": "No more than {{ quantity }}",
+        "modifierOutOfStock": "Out-of-stock",
+        "productLimitQuantity": "No more than {{ quantity }}",
+        "productOutOfStock": "Out-of-stock"
+      }
+    },
+    "reasonModal": {
+      "additionalDetail": "Additional details",
+      "additionalDetailRequired": "Please enter additional details",
+      "confirm": "Confirm",
+      "customerDidNotReceiveFood": "Customer didn’t receive the ordered",
+      "customerWalkedOutBeforeOrder": "Customer left before food was ordered",
+      "customerRequestReturn": "Customer requested a return",
+      "customerRequestChange": "Customer requested a change",
+      "customerRequestCancel": "Customer requested cancellation",
+      "foreignObjectInFood": "Foreign object in food",
+      "foundInsectsOrPestsInFood": "Found insects or pests in food",
+      "itemKeyError": "Wrong item ordered",
+      "other": "Other",
+      "otherWithReason": "Other (please specify)",
+      "reasonToCancelOrder": "Enter cancellation reason",
+      "reasonToRemoveLineItem": "Enter item cancellation reason",
+      "selectReasonToCancelOrder": "Please select a reason for cancellation",
+      "selectReasonToRemoveLineItem": "Please select a reason for cancelling this item",
+      "staffOpenedWrongTable": "Staff opened the wrong table",
+      "tableKeyError": "Order sent to the wrong table"
+    },
+    "requiredCustomerTypes": "Please add the customer types",
+    "result": "Result",
+    "selectAllTables": "Select all tables",
+    "selectCurrentTable": "Select current table",
+    "selectTargetTable": "Select target table",
+    "specifyReason": "Specify the reason",
+    "status": "Status",
+    "statusOf": "Stats: {{text}}",
+    "successfullyConfirmedTheOrder": "Successfully confirmed the order",
+    "table": {
+      "control": {
+        "search": {
+          "placeholderText": "Search"
+        }
+      },
+      "deliveryChannel": {
+        "AirAsiaFood": "AirAsia Food",
+        "FoodPanda": "Food Panda",
+        "GrabFood": "Grab Food",
+        "LineMan": "LINE MAN",
+        "Robinhood": "Robinhood",
+        "ShopeeFood": "Shopee Food"
+      },
+      "lineItemsTitle": "Line Items",
+      "openTableWith": {
+        "Buffet": "Buffet",
+        "DineIn": "Dine In",
+        "Takeaway": "Takeaway"
+      },
+      "p": "Error occured while get order deail adn promotions",
+      "payment": {
+        "initiateCheckoutFailed": "An error has occurred. We are unable to proceed with payment for this order.",
+        "modalConfirmCheckout": {
+          "cancel": "Go Back",
+          "confirm": "Confirm",
+          "description1": "Once you confirm the order, customers will",
+          "description2": "no longer be able to access the system.",
+          "title": "Confirm Order"
+        },
+        "paymentButton": "Proceed with Payment"
+      },
+      "paymentCompleted": {
+        "close": "Close",
+        "description1": "This order has been ",
+        "description2": "successfully paid!",
+        "title": "Payment Success"
+      },
+      "paymentFailed": {
+        "close": "Close",
+        "description": "Please check the status of the order or check if the customers is in the payment page or not",
+        "title": "Cannot make a payment"
+      },
+      "printer": {
+        "failedToConnect": "Can't connect your prninter.",
+        "isNotEnableBluetooth": "You're not enable bluetooth.",
+        "printFailed": "Print Failed, Please try again",
+        "printSuccessfully": "Print Successfully"
+      },
+      "qrcode": {
+        "branch": "Branch",
+        "printButton": "Print QR CODE",
+        "textQRCodeLine01": "Scan QR Code for order",
+        "textQRCodeLine02": "and checkout from your mobile",
+        "textQRCodeLine03": "Please return QR Code",
+        "textQRCodeLine04": "at cashier for receipt"
+      },
+      "selectService": {
+        "aggregator": "Delivery From Other Channels",
+        "confirm": "Confirm",
+        "description": "Please select a service type",
+        "normal": "Channel",
+        "openTableTitle": "Select Service Type",
+        "title": "Service Type"
+      },
+      "service": {
+        "Buffet": "Buffet",
+        "DineIn": "Dine In",
+        "Takeaway": "Takeaway"
+      },
+      "status": {
+        "Available": "Available",
+        "Cancelled": "Cancelled",
+        "Occupied": "Occupied",
+        "Paid": "Paid: Clearing table"
+      },
+      "toggleTableStatusDisabled": "Note:  In order to be able to close toggle, staff needs to cancel the order.",
+      "updateTableStatusFailed": "Error occured while updating table status"
+    },
+    "tableCannotBeCombined": "Table cannot be combined",
+    "tableCannotBeMoved": "Table that cannot be moved",
+    "tableForPayment": "Table for payment",
+    "tableNotFound": "Table not found",
+    "tableOrderStatus": {
+      "Available": "Available",
+      "Cancelled": "Cancelled",
+      "Checkout": "Order check pending",
+      "Completed": "Paid: Awaiting table pickup",
+      "Placed": "In use",
+      "ReadyToCheckout": "Pending payment",
+      "StaffCheckout": "Staff is making a payment"
+    },
+    "tableToBeMoved": "Table to be moved",
+    "tableToCombine": "Table to combine",
+    "tableToMove": "Table to move",
+    "timeLeft": "{{minutes}} left",
+    "timeOver": "Time over",
+    "title": "Dine-In",
+    "toastApplyMemberFailed": "Unable to link the member to this order.",
+    "toastInvalidPromotion": "Unable to make payment due to a promotion that does not meet the order's conditions.",
+    "toastPaymentFailed": "Something went wrong, Can't making a payment this order",
+    "totalFine": "Total Fine",
+    "totalServed": "{{ text }} Served",
+    "transactionCannotBeCompleted": "The transaction cannot be completed.",
+    "transferAction": {
+      "CombinesTo": "Combines to {{text}}",
+      "IsCombinedFrom": "Combined",
+      "IsTransferredFrom": "Transferred from {{text}}",
+      "TransfersTo": "Transfers to {{text}}"
+    },
+    "transferrableTable": "Transferrable table",
+    "transferTable": "Transfer Table",
+    "transferTableSucceed": "Transfer table success: {{from}} to {{to}}"
+  },
+  "enum": {
+    "buildingType": {
+      "CondoOffice": "Office",
+      "House": "Home"
+    },
+    "deliveryMethod": {
+      "AtDoor": "Hang at front door",
+      "AtGuard": "Leave with the security guard",
+      "AtLobby": "Leave at Lobby",
+      "AtReception": "Leave at reception",
+      "ToPerson": "Deliver to me"
+    },
+    "orderCustomStatus": {
+      "Cancelled": "Cancelled",
+      "Closed": "Closed",
+      "Completed": "Completed",
+      "PreOrder": "Pre-Order",
+      "WaitForManage": "In Progress",
+      "WaitForPayment": "Pending Payment"
+    },
+    "orderStatusName": {
+      "Cancelled": "Cancelled",
+      "Completed": "Completed",
+      "Confirmed": "Confiremd",
+      "Cooking": "In Progress",
+      "OutForDelivery": "Out for Delivery",
+      "PartiallyRefunded": "Partially Refunded",
+      "Placed": "New Order",
+      "PreOrder": "Pre-Order",
+      "ReadyForDelivery": "Ready for Delivery",
+      "ReadyToCook": "Ready to Cook",
+      "Refunded": "Fully Refunded"
+    },
+    "orderTabStatus": {
+      "Cancelled": "Cancelled",
+      "Completed": "Completed",
+      "OutOfDeveliery": "Out for Delivery",
+      "PendingPayment": "Pending Payment",
+      "PendingVerification": "Pending Verification",
+      "PreOrder": "Pre-Order",
+      "WaitForCallRider": "To Dispatch",
+      "WaitForCustomerToPickUp": "To Pick Up",
+      "WaitForRiderToPickUp": "Rider Coming",
+      "WaitToConfirm": "To Confirm",
+      "WhileCallingRider": "Dispatching"
+    },
+    "paymentStatusName": {
+      "Failed": "Failed",
+      "Paid": "Paid",
+      "PartiallyRefunded": "Partially Refunded",
+      "PendingPayment": "Pending Payment",
+      "PendingVerification": "Pending Payment Verification",
+      "Refunded": "Refunded"
+    },
+    "processStepName": {
+      "Cooking": "Order is ready",
+      "ReadyForDelivery": "Order is picked up",
+      "ReadyToCook": "Accept Order"
+    },
+    "riderJobStatusName": {
+      "Cancelled": "Merchant Rejected",
+      "Completed": "Completed",
+      "Created": "Finding Riders",
+      "DriverMatched": "Rider is coming",
+      "PickedUp": "Out for delivery",
+      "Rejected": "Driver Rejected"
+    },
+    "riderProviderName": {
+      "GrabExpress": "Grab Express",
+      "GrabExpressCar": "Grab Express Car",
+      "InHouse": "Others",
+      "Lalamove": "Lalamove",
+      "Skootar": "Skootar",
+      "SkootarFlatrate": "Skootar (Full-time)"
+    }
+  },
+  "global": {
+    "allTabLabel": "All",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "datePicker": {
+      "dismiss": "Cancel",
+      "ok": "OK"
+    },
+    "idNotFound": "ID not found, Please try again by refresh the application.",
+    "loading": "Loading...",
+    "next": "Next",
+    "ok": "OK",
+    "previous": "Previous",
+    "refresh": "Refresh",
+    "required": "Required",
+    "timePicker": {
+      "shopClosingTime": "Closing Time",
+      "shopOpeningHours": "Opening Hours"
+    }
+  },
+  "home": {
+    "pages": {
+      "delivery": "Delivery",
+      "dineIn": "Dine-in",
+      "product": "Products",
+      "report": "Report",
+      "setting": "Setting",
+      "shop": "Shops",
+      "manageCash": "Manage Cash"
+    },
+    "title": {
+      "orders": "Orders",
+      "settings": "Settings"
+    }
+  },
+  "kbankEDC": {
+    "checkout": {
+      "cancel_payment_btn": "Cancel payment",
+      "modal": {
+        "cancel_payment": {
+          "buttons": {
+            "cancel": "Confirm payment cancellation",
+            "continue": "Proceed with Payment"
+          },
+          "des": "If you cancel this payment, please also cancel the payment at the EDC.",
+          "title": "Cancel Payment"
+        },
+        "payment_failed": {
+          "buttons": {
+            "close": "Close"
+          },
+          "des": "Please check for accuracy or change the payment method to proceed.",
+          "title": "Payment failed"
+        },
+        "switch_external_edc_payment": {
+          "buttons": {
+            "cancel": "Back",
+            "ok": "Confirm"
+          },
+          "des": "Change payment method \nfrom EDC to \nEDC (no POS integration).\n Confirm change?",
+          "title": "Confirm payment method change"
+        }
+      },
+      "popup": {
+        "waiting": {
+          "des": "Please proceed with payment\nat the EDC device.",
+          "notice": "If the check takes too long, please proceed with payment using EDC (not integrated with POS system)",
+          "title": "Checking payment status. Please do not close or leave this page."
+        }
+      },
+      "switch_payment_btn": "Pay with EDC (not integrated with POS system)"
+    },
+    "pairing": {
+      "buttons": {
+        "ok": "OK",
+        "pairing": "Connecting",
+        "save": "Save"
+      },
+      "messages": {
+        "already_connected": "Connected to EDC",
+        "error_connected": "An error occurred during connection. Please check the IP address and device before trying again.",
+        "required_ip": "Please enter the IP Address you want to connect to."
+      },
+      "modal": {
+        "warning_unpair": {
+          "buttons": {
+            "close": "Close",
+            "pair": "Go to EDC setting"
+          },
+          "des": "Please go to the settings page. To connect to an EDC machine.",
+          "title": "The EDC device has\nnot been connected yet"
+        }
+      },
+      "row_title": "Connecting an EDC device",
+      "status": {
+        "connected": "Connected",
+        "not_connected": "Not connected"
+      },
+      "title": "Connecting an EDC device"
+    }
+  },
+  "location": {
+    "branch": "1 branch",
+    "branch_plural": "{{ count }} branches",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "noBranchData": "No Branch Data",
+    "selectBranch": "Select Branch",
+    "title": "Branch",
+    "search": "Search"
+  },
+  "map": {
+    "callbackErrorText": "An error occurred while fetching Google Maps data",
+    "errorText": "Unable to load the map at the moment",
+    "input": {
+      "defaultPlaceholder": "Search from branch"
+    },
+    "loadingText": "Loading map"
+  },
+  "notFound": {
+    "backToOrderScreen": "Back to Orders Page",
+    "subtitle": "We cannot find this page",
+    "title": "We cannot find this page"
+  },
+  "order": {
+    "addNewOrderLineItem": {
+      "search": {
+        "cancelText": "Cancel",
+        "placeholder": "Search"
+      },
+      "title": "Add"
+    },
+    "barcode": {
+      "lineCoupon": "ส่วนลด line Coupon {{ count }} ใบ",
+      "promotionDiscount": "Promotion Discount {{ count }} ใบ",
+      "voucher": "Voucher {{ count }} ใบ"
+    },
+    "branch": {
+      "label": "Branch",
+      "picker": {
+        "dismiss": "Cancel",
+        "extra": "Select Branch",
+        "label": "Select Branch",
+        "ok": "OK",
+        "placeholder": "Select"
+      }
+    },
+    "copy": {
+      "address": "Address copied"
+    },
+    "datePicker": {
+      "dismiss": "Dismiss",
+      "label": "Delivery Date",
+      "ok": "OK"
+    },
+    "delivery": "Delivery",
+    "deliveryDateLabel": "Delivery time",
+    "detail": {
+      "address": {
+        "buildingType": "Address Type",
+        "label": "Delivery Details"
+      },
+      "call": {
+        "callOnArrival": "Call the customer when the rider has arrived",
+        "notCall": "DONOT Call the customer ",
+        "title": "Call the customer when the rider has arrived"
+      },
+      "cancelOrderManage": {
+        "amount": "{{ amount }} baht",
+        "buttonName": "Cancel Order",
+        "cancelOrderSuccessText": "This order has been canceled",
+        "failText": "Unable to cancel the order",
+        "message": "You won't be able to change this order status back after confirming.",
+        "modal": {
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        },
+        "refundsMoneyToCustomerCreditCard": "Refunds the money to customer's credit card",
+        "title": "Canceling this order ?",
+        "totalAmountToBeRefunded": "Total amount to be refunded"
+      },
+      "coordinates": {
+        "copiedText": "Copied",
+        "label": "Coordinates"
+      },
+      "date": "Order Date",
+      "delivery": "Delivery",
+      "deliveryMethod": "Delivery Method",
+      "deliveryOrderManage": {
+        "callingRider": "Finding Riders...",
+        "callRiderButton": {
+          "createRiderRoute": {
+            "failed": "There is a problem dispatching this order."
+          },
+          "listRiderProvider": {
+            "callCar": "Car delivery",
+            "callCarInfo": "Up to 100 kg. 100x90x70 cm",
+            "callInhouse": "Self delivery",
+            "callMotorcycle": "Bike delivery",
+            "callMotorcycleInfo": "Up to 20 kg. 50x50x70 cm"
+          },
+          "modal": {
+            "callRider": "Finding Riders",
+            "cannotUseText": "Unavailable",
+            "confirm": "Confirm",
+            "defaultProviderCannotUse": "การขนส่งตั้งต้นไม่สามารถใช้งานได้ขณะนี้ เลือกการขนส่งที่ถูกที่สุด",
+            "prepareRider": "Preparing information for dispatching",
+            "title": "Select Provider"
+          },
+          "vendorDeliverySetting": {
+            "failed": "There is a problem retrieving delivery provider information."
+          }
+        },
+        "confirmOrderButton": {
+          "modal": {
+            "cancel": "Cancel",
+            "customerWillBeNotifiedOrderBeingPrepared": "The customer will be notified that the order is being prepared.",
+            "ok": "OK",
+            "orderWillBeSenTToTheKitchen": "The order will be sent to the kitchen.",
+            "subtitle": "We will notify customers that the order has been accepted.",
+            "title": "Confirm Order"
+          },
+          "title": "Confirm Order"
+        },
+        "createRiderJob": {
+          "failed": "There is a problem with dispatching this order"
+        },
+        "listRiderJobs": {
+          "failed": "There is a problem retrieving delivery information"
+        },
+        "orderCheck": "Checking orders information",
+        "riderByInHouse": {
+          "changeRiderStatus": "Change Delivery Status",
+          "jobStatus": {
+            "completed": "The rider job has been successfuly updated.",
+            "failed": "There is a problem updating rider job status."
+          },
+          "modal": {
+            "ok": "OK",
+            "title": "Select Provider (Price:Baht)"
+          }
+        },
+        "riderByProvider": {
+          "cancelRiderJob": {
+            "completed": "The rider job has been successfuly cancelled ",
+            "failed": "There is a problem canceling this rider job",
+            "loading": "Rider canceling..."
+          },
+          "confirmCancelRider": {
+            "modal": {
+              "no": "No",
+              "ok": "OK",
+              "subtitle": "Are you sure you want to cancel this rider job?",
+              "title": "Confirm Cancellation"
+            },
+            "title": "Cancel this job"
+          },
+          "providerInfo": {
+            "deliveryStatus": "Delivery Status"
+          },
+          "riderInfo": {
+            "call": "Call Rider",
+            "cancelling": "Canceling Rider Job...",
+            "finding": "Find Riders...",
+            "tracking": "Track Rider"
+          }
+        }
+      },
+      "floors": "Floors",
+      "lineItemsTableInfo": {
+        "adjustmentStaffCashTotalSatangs": "Manager privilege",
+        "discountTotal": "Total discount",
+        "grandTotalPrice": "Grand total",
+        "invalids": {
+          "ExceedMaxQuantity": "สินค้าเกินจำนวนสูงสุด",
+          "Inactive": "สินค้าปิดการใช้งาน",
+          "InsufficientStock": "สินค้าในสต็อกไม่เพียงพอ",
+          "InvalidModifiers": "ชุดตัวเลือกไม่ถูกต้อง",
+          "MembershipRequired": "ต้องเป็นสมาชิก",
+          "OutOfStock": "สินค้าหมด",
+          "ServiceNotAllowed": "Service Not Allowed",
+          "TierBirthMonthRequired": "ต้องระบุเดือนเกิดของระดับสมาชิก",
+          "TierIneligible": "ระดับของสมาชิกไม่ตรงตามเกณฑ์"
+        },
+        "noLineItemData": "ไม่พบข้อมูลรายการอาหาร",
+        "orderInvalids": {
+          "InvalidContainerReturnDate": "วันคืนภาชนะไม่ถูกต้อง",
+          "InvalidDeliveryDateTime": "วันเวลาที่จัดส่งไม่ถูกต้อง",
+          "InvalidExceedLineItemMaxQuantity": "รายการสินค้าเกินจำนวนสูงสุด",
+          "InvalidExternalCoupon": "คูปองไม่ถูกต้อง",
+          "InvalidLineItem": "รายการสินค้าไม่ถูกต้อง",
+          "InvalidLineItemModifierQuantity": "จำนวนชุดตัวเลือกไม่ถูกต้อง",
+          "InvalidMinimumLineItemTotal": "ราคาสินค้าขั้นต่ำไม่ถูกต้อง",
+          "InvalidMinimumTotal": "ราคาขั้นต่ำไม่ถูกต้อง",
+          "InvalidPickUpNotAvailable": "ไม่สามารถรับเองได้ในขณะนี้",
+          "InvalidPromotion": "โปรโมชั่นไม่ถูกต้อง",
+          "InvalidShippingAddress": "ที่อยู่สำหรับจัดส่งไม่ถูกต้อง",
+          "InvalidStockAdjustment": "การจัดการสต๊อกสินค้าไม่ถูกต้อง",
+          "InvalidTotalDueMoreThanPrevious": "ราคารวมมากกว่าก่อนหน้านี้",
+          "UnexpectedError": "เกิดข้อผิดพลาดทางระบบ"
+        },
+        "productDetailButton": "View product details",
+        "shippingPrice": "Delivery",
+        "totalDueSatangs": "Total due",
+        "totalPrice": "Item total"
+      },
+      "menu": "Items information",
+      "notFound": "We cannot find the orders you're looking for",
+      "orderStatusName": "Order Status",
+      "panReturnLabel": "Pan return time",
+      "panReturnTag": "Has pan return",
+      "paymentNotFound": "Payment information not found",
+      "paymentStatusName": "Payment Status",
+      "paymentTypeName": "Payment Method",
+      "pickupOrderManage": {
+        "modal": {
+          "cancel": "Cancel",
+          "ok": "OK"
+        },
+        "popupContent": {
+          "Cooking": {
+            "message": "We will notify the customer that the order is ready.",
+            "title": "Are you sure?"
+          },
+          "ReadyForDelivery": {
+            "message": "We will change the order status to Completed",
+            "title": "Confirm that the order has been picked up"
+          },
+          "ReadyToCook": {
+            "message": "We will notify the customer that the order has been accepted.",
+            "title": "Confirm Accepting Order"
+          }
+        }
+      },
+      "queryError": "There is a problem and we cannot retrieve the information.",
+      "taxInvoice": "Tax Invoice",
+      "title": "All Orders",
+      "total": "Total",
+      "updateLoading": "Updating orders. Please wait.",
+      "uploadBankPayment": {
+        "attachBankSlip": {
+          "failed": "There is a problem uploading the pay slip"
+        },
+        "bankSlipUpload": {
+          "failed": "There is a problem uploading the pay slip",
+          "uploadFailed": "There is a problem uploading the pay slip"
+        },
+        "confirmPayment": "Confirm Payment",
+        "updatePayment": {
+          "confirmed": "Payment has beeen successfuly confirmed",
+          "failed": "There is a problem. We cannot update payment status.",
+          "uploaded": "Pay Slip has been successfuly uploaded"
+        },
+        "uploadInput": "Upload Pay Slip",
+        "verification": {
+          "cancel": "Cancel",
+          "ok": "OK",
+          "subtitle": "We will update the payment status to 'Paid'",
+          "title": "Confirm Payment"
+        }
+      },
+      "utensil": {
+        "notRequest": "DONOT include Cutterly",
+        "request": "Cutterly Required"
+      }
+    },
+    "filter": {
+      "Available": "Available",
+      "Delivery": "Delivery",
+      "DineIn": "Dine-in",
+      "TakeAway": "Take Away",
+      "OrderCheckPending": "Order check pending"
+    },
+    "loading": {
+      "info": "Loading"
+    },
+    "managementLineItem": {
+      "button": {
+        "delete": "Delete",
+        "edit": "Edit",
+        "submit": "Update basket"
+      },
+      "modal": {
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "deleteSubTitle": "คุณแน่ใจว่าต้องการลบรายการนี้ใช่มั้ย?",
+        "deleteTitle": "Delete Item",
+        "save": "Save"
+      },
+      "notify": {
+        "alert": {
+          "cancel": "Cancel",
+          "confirm": "Confirm",
+          "subTitle": "คุณต้องการบันทึกการแก้ไขโดยไม่แจ้งให้ลูกค้าทราบใช่หรือไม่ ?",
+          "title": "Edit Order"
+        },
+        "checkbox": "ส่งข้อความเพื่อแจ้งลูกค้าให้ทราบการแก้ไขรายการสินค้า"
+      },
+      "title": "Edit Order",
+      "updateFailedText": "ไม่สามารถแก้ไขรายการได้",
+      "updateLoading": "กำลังแก้ไขออร์เดอร์",
+      "updateSuccessText": "แก้ไขรายการสินค้าสำเร็จ"
+    },
+    "membership": {
+      "phone": "Membership phone number",
+      "title": "Membership Info"
+    },
+    "noData": "- No Data -",
+    "noImageText": "Image not found",
+    "orderCustomTagName": {
+      "Cancelled": "Cancelled",
+      "Completed": {
+        "delivered": "Completed",
+        "delivering": "Out For Delivery"
+      },
+      "PreOrder": {
+        "placed": "Pre-Order"
+      },
+      "WaitForManage": {
+        "calledRider": "Dispatched",
+        "calledRiderFromNow": "Dispatched at: {{time}}",
+        "customerComing": "Customer Coming",
+        "inProgress": "In progress",
+        "riderComing": "Rider Coming",
+        "takeOrder": "Proceed to Accept Order",
+        "takeRider": "Find Rider"
+      },
+      "WaitForPayment": {
+        "confirm": "Pending Payment Confirmation",
+        "pending": "Pending Payment"
+      }
+    },
+    "orderNotFound": "We cannot find the information you're looking for",
+    "packingList": {
+      "notFoundPackingListItem": "Packing list item not found",
+      "order": "Order",
+      "packingListCompletly": "All items packed",
+      "packingListTitle": "Packing List",
+      "printPackingListBtn": "Print All Packing Lists",
+      "seePackingListBtn": "See Packing List",
+      "updatePackingListFailedTxt": "Error occurred while updating packing list",
+      "updatePackingListSuccessTxt": "Packing list updated successfully"
+    },
+    "paymentStatus": {
+      "confirm": "Proceed to Confirm payment",
+      "hold": "DONOT proceed with this order yet"
+    },
+    "pickUp": "Pick Up",
+    "shippingAddressLabel": "Delivery Address",
+    "status": {
+      "label": "Status",
+      "modal": {
+        "title": "Select Status"
+      }
+    }
+  },
+  "orderManagement": {
+    "branch": "Branch",
+    "cancel": "Cancel",
+    "chooseBranch": "Choose a branch",
+    "confirm": "Confirm",
+    "delivery": "Delivery",
+    "deliveryDate": "Delivery Date",
+    "doNotProcess": "Do Not proceed with this order yet",
+    "managementTypes": {
+      "cancel": "Cancelled",
+      "success": "Success",
+      "waitToManage": "In Process",
+      "waitToPayment": "Pending Payment"
+    },
+    "none": "None",
+    "orderListNotFound": "Order list not found",
+    "pleaseConfirmPayment": "Please confirm payment",
+    "preOrderMessage": "You have {{total}} Pre-Orders",
+    "tagForPresetOrderConditionEnum": {
+      "CustomerToPickup": "Customer to Pickup",
+      "DeliveryCancelled": "Cancelled",
+      "DeliveryCompleted": "Delivery Success",
+      "DeliveryPendingPayment": "Pending Payment",
+      "DeliveryPendingPaymentVerification": "Payment Verification",
+      "DeliveryPreOrder": "Pre-Order",
+      "MatchingRider": {
+        "past": "Call when",
+        "present": "Calling Rider"
+      },
+      "OutForDelivery": "Out of Delivery",
+      "RiderIsComing": "Rider is comming",
+      "ToCallRider": "Proceed to Call Rider",
+      "ToConfirm": "Proceed to Accept Order"
+    }
+  },
+  "OrderSummaryDeliveryChannelEnum": {
+    "AirAsiaFood": "Air asia food",
+    "FoodPanda": "Food panda",
+    "GrabFood": "Grab Food",
+    "HatoDelivery": "Hato delivery",
+    "LineMan": "Line man",
+    "Robinhood": "Robinhood",
+    "ShopeeFood": "Shopee food"
+  },
+  "OrderSummaryReportChannelEnum": {
+    "Delivery": "Delivery",
+    "DineIn": "DineIn",
+    "Takeaway": "Takeaway"
+  },
+  "PresetOrderConditionEnum": {
+    "CustomerToPickup": "To Pickup",
+    "DeliveryCancelled": "Cancelled",
+    "DeliveryCompleted": "Success",
+    "DeliveryPendingPayment": "Pending Payment",
+    "DeliveryPendingPaymentVerification": "Pending Verification",
+    "DeliveryPreOrder": "Pre-Order",
+    "MatchingRider": "Dispatching",
+    "OutForDelivery": "Out of Delivery",
+    "RiderIsComing": "Coming",
+    "ToCallRider": "To Dispatch",
+    "ToConfirm": "Pending"
+  },
+  "print": {
+    "complimentary": "Complimentary",
+    "customerPhone": "Customer's phone",
+    "date": "Date",
+    "deliveryDate": "Delivery Date",
+    "deliveryName": "Delivery name",
+    "deliveryTime": "Delivery Time",
+    "paymentMethod": "Payment method",
+    "price": "Price",
+    "printOrderLabelButton": "Print Order Label",
+    "products": "Products",
+    "QRCodeOrderNumber": "QR code order number",
+    "quantity": "Qty.",
+    "shippingPrice": "Delivery",
+    "signature": "Signature",
+    "table": "โต๊ะ",
+    "time": "Time",
+    "total": "Total",
+    "totalDue": "Total due",
+    "utensil": {
+      "notRequest": "DONOT include Cutterly",
+      "request": "Cutterly Required"
+    },
+    "vat": "Vat (7%)"
+  },
+  "printABBReceipt": {
+    "abb": {
+      "cancelReceipt": "Cancel receipt (ABB)",
+      "printReceipt": "Print receipt (ABB)"
+    },
+    "cancelABBForFullTaxInvoice": "Would you like to cancel the receipt (ABB) to issue a full tax invoice or not?",
+    "cannotPrintABBAgain": "If you confirm, you can't print the receipt (ABB) again.",
+    "confirm": "Confirm",
+    "confirmToCancelReceipt": "Confirm cancel receipt (ABB)?",
+    "error": {
+      "receiptNotAvailableRightNow": "The receipt information is not available at the moment. Please try again later.",
+      "unableToIssueFullTaxInvoice": "An error occurred while issuing the full tax invoice. Please try again.",
+      "unableToPrintReceipt": "An error occurred. Unable to print the receipt. Please try again.",
+      "unableToRetrieveReceiptData": "Unable to retrieve receipt data at this time."
+    },
+    "goBackToPreviousPage": "Go back to previous page",
+    "orderAlreadyIssuedAFullTaxInvoice": "Already printed",
+    "success": {
+      "cancelSuccessfully": "Cancel successfully",
+      "fullTaxInvoiceIssuedSuccessfully": "Already printed"
+    }
+  },
+  "printNonVatReceipt": {
+    "printNonVatBtn": "Print receipt",
+    "printSuccess": "Already printed",
+    "unableToPrintReceipt": "An error occurred. Unable to print the receipt. Please try again."
+  },
+  "printPrebillReceipt": {
+    "printPrebillBtn": "Print pre bill",
+    "printSuccess": "Already printed",
+    "unableToPrintReceipt": "An error occurred. Unable to print the pre bill. Please try again."
+  },
+  "privateCart": {
+    "buffetTimeout": {
+      "close": "Close",
+      "descriptionLine1": "If you want to order more food",
+      "descriptionLine2": "please extend the more time",
+      "titleLine1": "Unable to place an order",
+      "titleLine2": "because the timeout"
+    },
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "deleteProducts": "Delete Product",
+    "dialogDesc": "Do you want to delete this product ?",
+    "edit": "Edit",
+    "emptyCart": "Not found products in private cart",
+    "save": "Save",
+    "submit": "Submit to kitchen",
+    "title": "Private Cart",
+    "toast": {
+      "deleteFailed": "Cannot delete product",
+      "deleteSuccess1": "Delete product",
+      "deleteSuccess2": "Successfully",
+      "fetchTableError": "Get table failed",
+      "lineIntemInvalid": "Line items is invalid",
+      "orderNotReady": "Cannot submit more order",
+      "pendingPayment": "Order has been initiate checkout",
+      "submitToKitchen1": "Submit line items",
+      "submitToKitchen2": "completed",
+      "submitToKitchenFail": "Cannot submit line intems",
+      "tableNotReady": "Table is not ready",
+      "updateFailed": "Cannot update product",
+      "updateQuantityFailed": "Cannot update quantity",
+      "updateQuantitySuccess": "Update quantity success",
+      "updateSuccess": "Update product success"
+    },
+    "totalPayment": "Total"
+  },
+  "proceedToPaymentScanner": {
+    "close": "Close",
+    "invalidQRCode": "Invalid QR Code",
+    "pleaseCheckQRCodeAndTryAgain": "Please check your QR Code and try again",
+    "proceedWithoutMembership": "Confirm (without member)",
+    "remark": "If you confirm on the payment processing page, customers will not be able to use the system.",
+    "scanMemberQR": "Scan member’s QR",
+    "title": "Scan member’s QR"
+  },
+  "product": {
+    "controlList": {
+      "allCategoryLabel": "All",
+      "categoryTitle": "Category",
+      "modal": {
+        "title": "Category"
+      },
+      "search": {
+        "cancelText": "Cancel",
+        "placeholder": "Search"
+      }
+    },
+    "detail": {
+      "haveNoProductImageText": "Image not found",
+      "imageText": "Image",
+      "loadingText": "Loading product info",
+      "noImageText": "No image",
+      "notFound": "Not found",
+      "priceText": "Price",
+      "queryError": "Error loading product info",
+      "saveText": "Save",
+      "statusText": "Active",
+      "stockCountPlaceholderText": "Stock count",
+      "stockCountRequired": "Please specify stock count",
+      "stockCountText": "Stock count",
+      "stockStatusText": "Track stock",
+      "title": "Details",
+      "updateSuccessText": "Updated successfully"
+    },
+    "itemsByCategory": "Number of items in category",
+    "loadingText": "Loading...",
+    "loadMore": "Loading...",
+    "notFoundText": "Product not found",
+    "priceChannel": {
+      "AirAsiaFood": "Airasia Food",
+      "FoodPanda": "Food Panda",
+      "GrabFood": "Grab Food",
+      "HatoDelivery": "Hato Delivery",
+      "HatoDineIn": "Dine-In",
+      "HatoDineInBuffetALaCarte": "Buffet ALaCarte (Dine-In)",
+      "HatoDineInBuffetALaCarteTakeaway": "Buffet ALaCarte (Takeaway)",
+      "HatoDineInTakeaway": "Takeaway",
+      "LineMan": "Line Man",
+      "Robinhood": "Robinhood",
+      "ShopeeFood": "Shopee Food"
+    },
+    "productAutoActivatedDate": {
+      "openAgain": "Open again: {{ time }}",
+      "options": {
+        "customDate": "Active again on the specified date",
+        "immediatelyClose": "Inactive permanently",
+        "tomorrow": "Active again tomorrow"
+      },
+      "title": "How long do you would like to inactive the products?"
+    },
+    "productCard": {
+      "inStockText": "In stock",
+      "modalInStock": {
+        "button": {
+          "cancelText": "Cancel",
+          "saveText": "Save"
+        },
+        "stockCountText": "Track stock",
+        "title": "Inventory"
+      },
+      "notTracking": "N/A"
+    },
+    "updatingText": "Updating...",
+    "warningEmptyLocation": "Please select branch"
+  },
+  "pullToRefresh": {
+    "activate": "Release to update",
+    "deactivate": "Pull to refresh",
+    "finish": "Information has been refreshed"
+  },
+  "qrCodeScanner": {
+    "cancel": "Cancel",
+    "error": "Unable to open your camera",
+    "requestPermission": "Please allow permission this app to use the camera.",
+    "stopFailed": "Unable to stop QR Code scanner",
+    "title": "Scan QR Code"
+  },
+  "replaceX": {
+    "add": "Add {{text}}",
+    "addOrUpdate": "Add/Update {{text}}",
+    "delete": "Delete {{text}}",
+    "update": "Update {{text}}"
+  },
+  "report": {
+    "branch": "Branch",
+    "date": "Date",
+    "datePicker": {
+      "dismiss": "Dismiss",
+      "ok": "OK",
+      "title": "เลือกวันที่"
+    },
+    "numberOfOrders": "จำนวนออร์เดอร์",
+    "paymentType": "Payment Type",
+    "sales": "Sales",
+    "salesChannels": "Sales Channels",
+    "title": "Report",
+    "todayDateDisplayText": "วันนี้ ({{date}})",
+    "totalDueSatangs": "สรุปยอดการขาย",
+    "totalNumberOfOrders": "Total Number of Orders",
+    "totalSales": "Total Sales"
+  },
+  "ServiceStaffPaymentTypeEnum": {
+    "BankTransfer": "BankTransfer",
+    "Cash": "Cash",
+    "CashOnDelivery": "CashOnDelivery",
+    "Concession": "Concession",
+    "CorpInvoice": "CorpInvoice",
+    "ExternalEDC": "External EDC",
+    "ExternalQRPayment": "ExternalQRPayment",
+    "KBankThaiQR": "KBankThaiQR",
+    "KPaymentKPlusNumber": "KPaymentKPlusNumber",
+    "KPaymentPromptPayNumber": "KPaymentPromptPayNumber",
+    "LinePay": "LinePay",
+    "None": "None",
+    "OmiseCreditCard": "OmiseCreditCard",
+    "OmisePromptPay": "OmisePromptPay",
+    "OmiseTrueMoneyWallet": "OmiseTrueMoneyWallet",
+    "PromptPay": "PromptPay",
+    "SCBPromptPay": "SCBPromptPay"
+  },
+  "settings": {
+    "brandList": "Brand ({{ count }} item)",
+    "brandNotFound": "Brand not found",
+    "dataNotFound": "We cannot find what you're looking for",
+    "label": {
+      "branch": "Branch",
+      "header": {
+        "general": "General",
+        "personal": "Personal information"
+      },
+      "notification": "Notification",
+      "version": "Version"
+    },
+    "logout": "Log Out",
+    "modalConfirm": {
+      "cancel": "Cancel",
+      "description": "Are you sure you want to log out?",
+      "ok": "OK",
+      "title": "Log Out"
+    },
+    "picker": {
+      "brand": {
+        "dismiss": "Dismiss",
+        "label": "Select Brand",
+        "ok": "OK",
+        "placeholder": "Select",
+        "title": "Select Brand"
+      },
+      "language": {
+        "dismiss": "Dismiss",
+        "label": "Select Language",
+        "ok": "OK",
+        "placeholder": "Select",
+        "title": "Select Language"
+      }
+    },
+    "searchBrand": "Search brand",
+    "selectBrand": "Select brand",
+    "title": "Settings"
+  },
+  "shop": {
+    "branchLabel": "Branch",
+    "branchNameLabel": "Branch name",
+    "control": {
+      "search": {
+        "cancelText": "Cancel",
+        "placeholderText": "Search branch name"
+      }
+    },
+    "createOrUpdateLocation": {
+      "businessHours": {
+        "title": "วันเวลา"
+      },
+      "createTitle": "Create Branch",
+      "dataRequired": "โปรดกรอกข้อมูลให้ครบ",
+      "general": {
+        "bbsBranchRefID": {
+          "label": "BBS ID",
+          "placeholder": "BBS ID"
+        },
+        "branchEn": {
+          "label": "Name (EN)",
+          "placeholder": "Name (EN)"
+        },
+        "branchTaxID": {
+          "label": "Branch no. in Vat License (Por. Por. 20)",
+          "placeholder": "Branch no. in Vat License (Por. Por. 20)"
+        },
+        "branchTh": {
+          "label": "Name (TH)",
+          "placeholder": "Name (TH)"
+        },
+        "kbankMerchantID": {
+          "label": "Merchant ID",
+          "placeholder": "Merchant ID"
+        },
+        "refId": {
+          "label": "Ref ID",
+          "placeholder": "Ref ID"
+        },
+        "registerTaxID": {
+          "label": "POS register number",
+          "placeholder": "POS register number"
+        },
+        "status": "Status",
+        "title": "General info"
+      },
+      "loadingText": "Loading branch info...",
+      "locationDetail": {
+        "addressDetailEn": {
+          "label": "Address line (EN)",
+          "placeholder": "Address detail"
+        },
+        "addressDetailTh": {
+          "label": "Address line (TH)",
+          "placeholder": "Address detail"
+        },
+        "addressLabel": {
+          "label": "Location name (TH)",
+          "placeholder": "Location name"
+        },
+        "addressLabelEn": {
+          "label": "Location name (EN)",
+          "placeholder": "Location name"
+        },
+        "contactName": {
+          "label": "Contact person",
+          "placeholder": "Contact person"
+        },
+        "contactPhone": {
+          "label": "Tel",
+          "placeholder": "Tel"
+        },
+        "floors": {
+          "label": "Floor (TH)",
+          "placeholder": "Floor"
+        },
+        "floorsEn": {
+          "label": "Floor (EN)",
+          "placeholder": "Floor"
+        },
+        "instructions": {
+          "label": "Note to driver",
+          "placeholder": "Note to driver"
+        },
+        "latitude": {
+          "placeholder": "Latitude"
+        },
+        "longitude": {
+          "placeholder": "Longitude"
+        },
+        "map": {
+          "placeholder": "Search from branch"
+        },
+        "saveButton": "Save",
+        "title": "Location details"
+      },
+      "notFound": "Branch not found",
+      "queryError": "Error loading branch info",
+      "updateSuccessText": "Branch updated successfully"
+    },
+    "loadingText": "Loading branch info",
+    "locationCard": {
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "notFoundText": "Branch not found"
+  },
+  "tabsMenu": {
+    "home": "Home",
+    "order": "Order",
+    "product": "Product",
+    "report": "Report",
+    "settings": "Setting",
+    "shop": "Shop",
+    "user": "User"
+  },
+  "taxInvoice": {
+    "address": "Address",
+    "company": "Company",
+    "taxID": "Tax ID",
+    "title": "Tax Invoice"
+  },
+  "notiInApp": {
+    "tableHasFinished": "Customer at this table has finished.",
+    "pleaseCheckTheOrder": "Please check the order."
+  },
+  "forceUpdate": {
+    "title": "Please update to the new version.",
+    "description": "For a better experience",
+    "updateButton": "Update Now"
+  }
+}
