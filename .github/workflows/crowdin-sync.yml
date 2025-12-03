@@ -8,31 +8,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      # Install Crowdin CLI
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Install Crowdin CLI
         run: |
           npm install -g @crowdin/cli
 
-      # Create crowdin.yml config dynamically (ถ้ายังไม่มี)
-      - name: Create Crowdin config
+      - name: Create Crowdin configuration
         run: |
           cat > crowdin.yml << EOF
           project_id: "${{ secrets.CROWDIN_PROJECT_ID }}"
-          api_token: "${{ secrets.CROWDIN_PERSONAL_TOKEN }}"
+          api_token: "${{ secrets.CROWDIN_TOKEN }}"
 
           files:
             - source: /public/i18n/source.json
               translation: /public/i18n/%locale%.json
           EOF
 
-      # Download translations from Crowdin
-      - name: Download translations
+      - name: Download translations from Crowdin
         run: |
-          crowdin download --branch main
+          crowdin download
 
       - name: Check for changes
         id: check_changes
