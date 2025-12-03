@@ -15,16 +15,14 @@ jobs:
       # Install Crowdin CLI
       - name: Install Crowdin CLI
         run: |
-          curl -L https://crowdin.com/downloads/crowdin-cli.zip -o crowdin-cli.zip
-          unzip crowdin-cli.zip -d crowdin-cli
-          sudo mv crowdin-cli/crowdin /usr/local/bin/crowdin
+          npm install -g @crowdin/cli
 
       # Create crowdin.yml config dynamically (ถ้ายังไม่มี)
       - name: Create Crowdin config
         run: |
-          cat <<EOF > crowdin.yml
-          project_id_env: CROWDIN_PROJECT_ID
-          api_token_env: CROWDIN_PERSONAL_TOKEN
+          cat > crowdin.yml << EOF
+          project_id: "${{ secrets.CROWDIN_PROJECT_ID }}"
+          api_token: "${{ secrets.CROWDIN_PERSONAL_TOKEN }}"
 
           files:
             - source: /public/i18n/source.json
@@ -33,36 +31,46 @@ jobs:
 
       # Download translations from Crowdin
       - name: Download translations
-        env:
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
         run: |
           crowdin download --branch main
 
-      # Create new branch
-      - name: Create update branch
+      - name: Check for changes
+        id: check_changes
         run: |
-          git checkout -b crowdin-update-$(date +%Y%m%d)
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
 
-      # Commit changes
-      - name: Commit translation updates
-        run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add locales/*.json || echo "No changes"
-          git commit -m "Update translations from Crowdin" || echo "No changes to commit"
-
-      # Push branch
-      - name: Push branch
-        run: |
-          git push origin HEAD
-
-      # Create Pull Request
       - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          title: "Update translations from Crowdin"
-          body: "Automatic sync translation from Crowdin."
-          base: main
-          branch: crowdin-update-$(date +%Y%m%d)
+          commit-message: "chore: update translations from Crowdin"
+          branch: crowdin-translations
+          delete-branch: true
+          title: "🌐 Update translations from Crowdin"
+          body: |
+            ## Translation Updates
+
+            This PR contains the latest translations from Crowdin.
+
+            ### Changes
+            - Updated translation files for all languages
+            - Source: Crowdin Project
+            - Generated automatically by GitHub Actions
+
+            ### Review Checklist
+            - [ ] Review translation changes
+            - [ ] Verify JSON format is valid
+            - [ ] Check for any missing keys
+
+            ---
+            *This PR was created automatically by the Crowdin sync workflow.*
+          labels: |
+            translations
+            crowdin
+            automated
+          assignees: ${{ github.repository_owner }}
