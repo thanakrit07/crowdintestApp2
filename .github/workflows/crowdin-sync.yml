@@ -23,19 +23,25 @@ jobs:
       #     npm install -g @crowdin/cli
 
       - name: Download translations from Crowdin
-        uses: crowdin/github-action@v1 # Use the latest version
+        uses: crowdin/github-action@v2 # Use the latest version
         with:
-          upload_sources: false # Set to false as we are only downloading
-          upload_translations: false # Set to false as we are only downloading
+          upload_sources: false
+          upload_translations: false
           download_translations: true
-          # Optional: Specify a branch to download translations to
-          # localization_branch_name: "l10n_crowdin_action"
-          # Optional: Create a pull request with the downloaded translations
-          # create_pull_request: true
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # Required if creating a pull request
+          localization_branch_name: l10n_crowdin_translations
+          create_pull_request: true
+          pull_request_title: "New Crowdin Translations"
+          pull_request_body: "New Crowdin translations by [Crowdin GH Action](https://github.com/crowdin/github-action)"
+          pull_request_base_branch_name: "main"
         env:
+          # A classic GitHub Personal Access Token with the 'repo' scope selected (the user should have write access to the repository).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # A numeric ID, found at https://crowdin.com/project/<projectName>/tools/api
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+
+          # Visit https://crowdin.com/settings#api-key to create this token
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
 
       # - name: Check for changes
       #   id: check_changes
