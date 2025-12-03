@@ -1,20 +1,7 @@
 {
-  "welcome": "Welcome to React + i18next + Mantine",
-  "description": "This is a simple React application with internationalization support",
-  "counter": "Counter",
-  "count": "Count is {{count}}",
-  "increment": "Increment",
-  "decrement": "ลดดดด",
-  "reset": "รีเซ็ตตตต",
-  "selectLanguage": "เลือกภาษา",
-  "currentLanguage": "Current Language",
-  "features": "Features",
-  "feature1": "Multi-language support (English & Thai)",
-  "feature2": "Modern UI with Mantine components",
-  "feature3": "i18next for internationalization",
-  "feature4": "TypeScript support",
-  "summaryTitle": "สรุปรายการ",
-  "totalPrice": "รวมค่าอาหาร",
-  "total": "total",
-  "settingUsage": "ตั้งค่าการใช้งาน"
+  "applicationName": "Application Name",
+  "merchantName": "Merchant Name",
+  "merchantDescription": "Merchant Description",
+  "merchantLogo": "Merchant Logo",
+  "merchantLogoUrl": "Merchant Logo URL"
 }
