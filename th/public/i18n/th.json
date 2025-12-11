@@ -1,0 +1,10 @@
+{
+  "applicationName": "แอพจ้า",
+  "merchantName": "เมอแช้นเด้อ",
+  "merchantDescription": "Merchant Description",
+  "merchantLogo": "Merchant Logo",
+  "merchantLogoUrl": "Merchant Logo URL",
+  "permissions": {
+  "staff": "Staff permissions"
+  }
+}
